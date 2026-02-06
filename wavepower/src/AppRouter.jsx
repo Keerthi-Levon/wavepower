@@ -4,6 +4,8 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Header from "./Layout/Header/Header";
 import Footer from "./Layout/Footer/Footer";
 import { HomePage } from "./Pages/HomePage";
+import ContactPage from "./Pages/ContactPage/ContactPage";
+import Aboutuspage from "./Pages/Aboutus/Aboutuspage";
 // import ScrollToTop from "./Components/ScrollToTop"; // if exists
 
 const Loader = () => {
@@ -21,6 +23,8 @@ const MainContent = () => {
           <Header />
           <Routes>
             <Route path="/" element={<HomePage />} />
+            <Route path="/contact" element={<ContactPage/>}/>
+            <Route path="/about" element={<Aboutuspage/>}/>
           </Routes>
           <Footer />
         </>

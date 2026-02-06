@@ -100,6 +100,16 @@ const Header = () => {
                     Contact Us
                   </Link>
                 </li>
+                   <li className="header-menu-item">
+                  <Link
+                    className={`nav-link ${isActive("/about-us") ? "active-link" : ""
+                      }`}
+                    to="/about"
+                    onClick={toggleNav}
+                  >
+                    About 
+                  </Link>
+                </li>
 
               </ul>
             </div>
@@ -169,6 +179,16 @@ const Header = () => {
               Contact Us
             </Link>
           </li>
+             <li>
+            <Link
+              to="/about"
+              className={isActive("/about") ? "active-link" : ""}
+              onClick={toggleMenu}
+            >
+              About
+            </Link>
+          </li>
+             
           <li>
             <button
               className="btn btn-outline-light rounded-pill px-4"
