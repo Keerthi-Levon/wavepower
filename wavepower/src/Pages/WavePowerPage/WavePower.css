@@ -1,0 +1,56 @@
+.wavepower-banner {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative; /* ✅ REQUIRED */
+}
+
+.wavepower-banner-overlay {
+  position: absolute; /* ✅ REQUIRED */
+  inset: 0;
+
+  background: rgba(0, 0, 0, 0.4);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  color: #fff;
+  text-align: center;
+}
+.wavepower-banner-overlay h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+.wavebanner-btn{
+    background-color:rgba(0, 164, 244, 1);
+    border-radius: 40%
+;
+}
+/* .wave-energy-content{
+    text-align: center;
+    margin-top: 40px;
+} */
+ .wave-energy {
+  padding: 80px 0;
+}
+
+.wave-energy-content {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.wave-energy-content h3 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.wave-energy-content p {
+  font-size: 18px;
+  line-height: 1.7;
+  margin-bottom: 16px;
+  color: #444;
+}
