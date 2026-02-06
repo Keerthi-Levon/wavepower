@@ -2,7 +2,7 @@
   position: relative;
   width: 100%;
   height: 100vh;
-  overflow: hidden;
+  overflow-x: hidden !important;
 }
 
 /* Video background */
@@ -12,18 +12,19 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center center;
-  transform: scale(1.1); /* 👈 key line */
-  overflow: hidden;
-}
+  object-position: center;
 
+  /* clarity fixes */
+  image-rendering: auto;
+  backface-visibility: hidden;
+}
 
 /* Dark overlay for text readability */
 .home-banner::after {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.089);
+  background: rgba(0, 0, 0, 0.);
   z-index: 2;
 }
 

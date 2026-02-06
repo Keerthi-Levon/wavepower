@@ -111,6 +111,17 @@ const Header = () => {
                   </Link>
                 </li>
 
+                <li className="header-menu-item">
+                  <Link
+                    className={`nav-link ${isActive("/contact") ? "active-link" : ""
+                      }`}
+                    to="/wave-power"
+                    onClick={toggleNav}
+                  >
+                    Wave Power
+                  </Link>
+                </li>
+
               </ul>
             </div>
           </div>
@@ -179,6 +190,16 @@ const Header = () => {
               Contact Us
             </Link>
           </li>
+           <li className="header-menu-item">
+                  <Link
+                    className={`nav-link ${isActive("/contact") ? "active-link" : ""
+                      }`}
+                    to="/wave-power"
+                    onClick={toggleNav}
+                  >
+                    Wave Power
+                  </Link>
+                </li>
              <li>
             <Link
               to="/about"
