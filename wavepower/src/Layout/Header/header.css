@@ -1,12 +1,17 @@
 .header {
-  background: transparent;
   padding: 0px;
   position: absolute;
-  top: 40px;
+  top: 20px;
   z-index: 9999;
   transition: all 0.3s ease;
   border-radius: 30px;
   display: flex;
+}
+.header {
+  background: rgba(0, 0, 0, 0.35); /* 👈 light black transparent */
+  backdrop-filter: blur(6px);     /* 👈 optional premium glass effect */
+  -webkit-backdrop-filter: blur(6px);
+  padding: 20px;
 }
 .navbar-head {
   display: flex;
@@ -18,9 +23,10 @@
   gap: 30px;
   margin-bottom: 0;
   align-items: center;
+  color: #fff;
 }
 .header-menu-item {
-  color: #000;
+  color: #fff;
   font-size: 18px;
   font-weight: 600;
 }
@@ -127,7 +133,7 @@
   color: #fff;
 }
 .logo-icon {
-  width: 110px;
+  width: 150px;
   object-fit: contain;
 }
 

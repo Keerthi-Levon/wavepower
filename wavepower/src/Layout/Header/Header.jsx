@@ -2,7 +2,7 @@ import  { useEffect, useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import "./header.css";
 import { FaBars, } from "react-icons/fa6";
-// import logoIcon from "../../Assets/Logo/Logo.png"
+import logoIcon from "../../assets/Logo (1).png";
 import { FaTimes } from "react-icons/fa";
 
 const Header = () => {
@@ -56,7 +56,7 @@ const Header = () => {
         >
           <div className="navbar-head">
             <a className="navbar-brand" href="/">
-              {/* <img src={logoIcon} alt="Logo" className="logo-icon" /> */}
+              <img src={logoIcon} alt="Logo" className="logo-icon" />
             </a>
             <div>
               <ul className="header-menu">
@@ -113,7 +113,7 @@ const Header = () => {
                   className="get-consultant px-4"
                   onClick={() => navigate("/contact")}
                 >
-                  Get Consultant
+                  Get In Touch
                 </button>
               </li>
             </ul>
@@ -177,7 +177,7 @@ const Header = () => {
                 toggleMenu();
               }}
             >
-              Get Consultant
+              Get In Touch
             </button>
           </li>
         </ul>
