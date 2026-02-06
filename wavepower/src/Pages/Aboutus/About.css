@@ -1,0 +1,90 @@
+.Aboutus-Heading p {
+  color: #1f284f;
+  font-weight: 700;
+  font-size: 50px;
+}
+.Aboutus-content p {
+  font-size: 20px;
+  font-weight: 500;
+  color: #1f284f;
+}
+.Aboutus-para {
+  font-weight: 400;
+  font-size: 20px;
+  color: #575757;
+}
+.Aboutus-wrapper {
+  padding-top: 200px;
+}
+.Aboutus-button button {
+  background-color: #00a4f4;
+  color: #ffff;
+  border-radius: 30px;
+}
+.Aboutus-button {
+  padding-top: 20px;
+}
+.Aboutus-imagewrapper {
+  padding-top: 150px;
+}
+.rightside-Heading p {
+  font-size: 40px;
+  font-weight: 700;
+  color: #1f284f;
+}
+.rightside-content p {
+  font-weight: 400;
+  font-size: 20px;
+  color: #575757;
+}
+.Rightside-Overview {
+  padding-top: 100px;
+}
+.story-content p {
+  font-weight: 400;
+  font-size: 20px;
+  color: #17181a;
+}
+.aboutus-para p {
+  font-weight: 400;
+  font-size: 20px;
+  color: #575757;
+}
+.Story-image img {
+  border-radius: 120px;
+}
+.aboutus-para {
+  padding-top: 50px;
+}
+.Story-wrapper {
+  padding-top: 100px;
+}
+@media (max-width: 768px) {
+  .Aboutus-wrapper {
+    padding-top: 100px;
+  }
+  .Aboutus-imagewrapper {
+    padding-top: 50px;
+  }
+  .Leftside-image img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  .Wavepower-Image img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  .Story-image img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  .Story-wrapper {
+    padding-top: 50px;
+  }
+}

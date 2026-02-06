@@ -1,0 +1,181 @@
+.Contact-Baneer {
+  background-image: url("../../assets/Rectangle\ 183.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  z-index: 999;
+  overflow: hidden;
+}
+.Banner-Content {
+  padding: 280px 280px;
+}
+.Banner-Content h1 {
+  color: #ffff;
+  font-size: 80px;
+  font-weight: 600;
+}
+.Banner-Content p {
+  color: #ffff;
+  font-weight: 500;
+  font-size: 16px;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.contact-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-button button {
+  background-color: #00a4f4;
+  color: #ffff;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 50px;
+}
+.Getin-Content {
+  padding-top: 40px;
+}
+.Getin-Content h5 {
+  color: #4d4d4d;
+  font-weight: 700;
+  font-size: 50px;
+  text-align: center;
+}
+.Getin-Content p {
+  color: #717171;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+}
+.call-icon {
+  color: #48bdf6;
+  font-size: 50px;
+  text-align: center;
+}
+.call-label h5 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-top: 15px;
+}
+.call-label p {
+  font-size: 14px;
+  font-weight: 400;
+}
+.Contact-label {
+  background-color: #ffff;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+.call-label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.Help-content p {
+  font-weight: 700;
+  font-size: 40px;
+  color: #ffff;
+  text-align: center;
+}
+.Contact-help {
+  background-color: #1f384f;
+  margin-top: 20px;
+  border-radius: 20px;
+  padding: 40px;
+}
+.Help-label {
+  display: flex;
+  gap: 10px;
+  color: #ffff;
+}
+.Demo-Button button {
+  background-color: #3cba79;
+  color: #ffff;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 50px;
+}
+.Demo-Button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Background-wrapper {
+  background-color: #eff6fe;
+  padding: 20px;
+  margin-top: 30px;
+}
+.Teamleader-heading p {
+  color: #1f284f;
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+  margin-top: 20px;
+}
+.Teamleader-image img {
+  border-radius: 60px;
+  height: 200px;
+  width: 200px;
+}
+.Teamleader-name h6 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-top: 10px;
+  padding-left: 12px;
+}
+.Teamleader-name p {
+  font-weight: 400;
+  font-size: 20px;
+  padding-left: 12px;
+}
+@media (max-width: 768px) {
+  .Contact-Baneer {
+    height: auto;
+    padding: 80px 30px;
+  }
+
+  .Banner-Content {
+    padding: 0;
+    text-align: center;
+  }
+
+  .Banner-Content h1 {
+    font-size: 42px;
+    line-height: 1.3;
+  }
+
+  .Banner-Content p {
+    font-size: 15px;
+    padding: 16px 0 0 0;
+  }
+
+  .contact-button {
+    margin-top: 30px;
+  }
+
+  .contact-button button {
+    font-size: 18px;
+    padding: 12px 36px;
+  }
+  .Contact-label{
+    margin-top: 15px;
+  }
+  .Teamleader-heading p{
+    font-size: 30px;
+    margin: 0;
+  }
+  .Help-content p{
+    font-size: 18px;
+  }
+  .Getin-Content h5{
+    font-size: 35px;
+  }
+}

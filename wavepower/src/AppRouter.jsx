@@ -6,6 +6,8 @@ import Footer from "./Layout/Footer/Footer";
 import { HomePage } from "./Pages/HomePage";
 import AboutPages from "./Pages/BlogPage/BlogPage";
 import WavePowerpage from "./Pages/WavePowerPage/WavePowerpage";
+import ContactPage from "./Pages/ContactPage/ContactPage";
+import Aboutuspage from "./Pages/Aboutus/Aboutuspage";
 // import ScrollToTop from "./Components/ScrollToTop"; // if exists
 
 const Loader = () => {
@@ -25,6 +27,8 @@ const MainContent = () => {
             <Route path="/" element={<HomePage />} />
             <Route path="/about-us" element={<AboutPages/>}/>
             <Route path="/wave-power" element={<WavePowerpage/>}/>
+            <Route path="/contact" element={<ContactPage/>}/>
+            <Route path="/about" element={<Aboutuspage/>}/>
           </Routes>
           <Footer />
         </>
