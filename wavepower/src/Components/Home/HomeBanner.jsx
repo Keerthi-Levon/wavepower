@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react";
 import "./homme.css";
-import bannerVideo from "../../assets/bannerVideo.mp4";
+import bannerVideo from "../../assets/bannervideo2.mp4";
 
 const HomeBanner = () => {
   const videoRef = useRef(null);
@@ -39,8 +39,8 @@ const HomeBanner = () => {
       />
 
       <div className="banner-overlay">
-        <h1>Clean Energy from </h1>
-        <h1>Ocean Waves</h1>
+        <h1> Energy from the Ocean </h1>
+        <h1>Clean for the Future</h1>
       </div>
     </section>
   );
