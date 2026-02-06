@@ -1,0 +1,285 @@
+.blogbanner-img-outer {
+  padding: 170px 30px 30px 30px;
+}
+ .blogbanner-img {
+  aspect-ratio: 543 / 509;
+  border-radius: 120px;
+  overflow: hidden;
+  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.08);
+}
+.blogbanner-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.blogbanner .col-lg-6:last-child {
+  padding-top: 40px;
+}
+.blogbanner-content{
+    padding-top: 120px;
+}
+.icon-circle {
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.blogbanner-icons{
+    display: flex;
+    gap: 30px;
+}
+.blogbanner-content h2{
+font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 60px;
+  letter-spacing: 0;
+}
+.blogbanner-content p{
+font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0;
+}
+.blogbanner-extracontent p{
+    font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0;
+}
+.blog-menu{
+    display: flex;
+    justify-content: space-between;
+}
+.blog-menu h6{
+    border: 1px solid black;
+    background-color: white;
+  height: 48px;
+  border-radius: 30px;
+  border: 1px solid;
+  padding: 12px 24px;
+  opacity: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.blog-menu h6:hover{
+    background-color: skyblue;
+}
+.blogcard {
+  margin-top: 40px;
+  position: relative;
+}
+.blog-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.blog-title {
+  font-size: 28px;
+  font-weight: 600;
+}
+.blog-tabs {
+  display: flex;
+  gap: 12px;
+}
+.blog-tabs h6 {
+  height: 48px;
+  padding: 12px 24px;
+  border-radius: 30px;
+  border: 1px solid #ccc;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-weight: 400;
+  transition: all 0.3s ease;
+}
+.blog-tabs h6.active {
+  background: #000;
+  color: #fff;
+  border-color: #000;
+}
+.ant-carousel {
+  overflow: visible;
+}
+.ant-carousel .slick-list {
+  overflow: hidden;
+}
+.blog-slide {
+  padding: 0 12px;
+}
+.blog-card1 {
+  background: #fff;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  height: 100%;
+}
+.card1-img img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+.blog-card-content {
+  padding: 18px;
+}
+.blog-card-content h5 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.blog-card-content p {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.5;
+}
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 16px;
+}
+.card-footer a {
+  color: #000;
+  font-weight: 500;
+  text-decoration: none;
+}
+.card-footer span {
+  color: #999;
+  font-size: 13px;
+}
+.blog-arrow {
+  position: absolute;
+  top: 60%;
+  transform: translateY(-50%);
+  z-index: 20;
+  background: #fff;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+  border: none;
+}
+.blog-arrow.left {
+  left: -25px;
+  border: 1px solid black;
+}
+.blog-arrow.right {
+  right: -25px;
+  border: 1px solid black;
+}
+.blog-arrow:hover {
+  background: #000;
+  color: #fff;
+}
+.read-more {
+  color: rgba(0, 112, 240, 1);
+  text-decoration: none;
+}
+a.read-more {
+  color: rgba(0, 112, 240, 1) !important;
+}
+.news-head{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.news {
+  position: relative;
+}
+.news-slide {
+  padding: 0 12px;
+}
+.news-card1 {
+  display: flex;
+  gap: 16px;
+  background: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.newspage1 img {
+  width: 170px;
+  height: 170px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.news-content {
+  padding: 16px 12px;
+}
+.news-arrows {
+  position: absolute;
+  right: 0;
+  bottom: -60px;
+  display: flex;
+  gap: 10px;
+  padding: 20px;
+}
+.news-arrows :hover{
+  color: skyblue;
+}
+
+.news-arrows .ant-btn {
+  background: #fff;
+  border: 1px solid #000;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+
+
+/* ===== RESPONSIVE ===== */
+
+@media (max-width: 768px) {
+  .blog-arrow {
+    display: none;
+  }
+
+  .blog-tabs {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .blog-tabs {
+    display: flex;
+    gap: 8px;
+    overflow-x: auto;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: 6px;
+  }
+
+  .blog-tabs::-webkit-scrollbar {
+    display: none;
+  }
+
+  .blog-tabs h6 {
+    flex-shrink: 0;
+    height: 36px;
+    padding: 6px 14px;
+    font-size: 12px;
+    border-radius: 20px;
+    white-space: nowrap;
+  }
+   .blog-arrow {
+    display: flex;            /* ensure visible */
+    align-items: center;
+    justify-content: center;
+    width: 34px;
+    height: 34px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 50;
+  }
+
+  .blog-arrow.left {
+    left: 6px;
+  }
+
+  .blog-arrow.right {
+    right: 6px;
+  }
+}
