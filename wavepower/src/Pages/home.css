@@ -260,3 +260,68 @@
     align-items: center;
 }
 }
+
+.wave-energy-card{
+  background-color: #3EABBF;
+  border-radius: 30px;
+  min-height: 320px;
+  color: #fff;
+}
+
+.technology-section {
+  background-color: #FAFBFC;
+}
+
+/* Image Styling */
+.tech-image-wrapper {
+  border-radius: 24px;
+  overflow: hidden;
+  background: #f5f7fa;
+}
+
+.tech-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Text */
+.tech-title {
+  font-weight: 700;
+  color: #0b1b3f;
+}
+
+.tech-desc {
+  color: #5f6b7a;
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+/* Feature List */
+.tech-feature {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+}
+
+.feature-icon {
+  width: 28px;
+  height: 28px;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #6f7cff, #9fa8ff);
+  flex-shrink: 0;
+  margin-top: 4px;
+}
+
+.tech-feature h6 {
+  margin-bottom: 4px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #0b1b3f;
+}
+
+.tech-feature p {
+  margin: 0;
+  font-size: 14px;
+  color: #6b7280;
+}
