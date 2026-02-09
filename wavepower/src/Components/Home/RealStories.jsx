@@ -29,7 +29,7 @@ const RealStories = () => {
           {/* SLIDE 1 */}
           <SwiperSlide>
             <div className="row">
-              <div className="col-lg-6">
+              <div className="col-lg-6 col-md-6">
                 <div className="stories-heading">
                   <ImQuotesLeft
                     style={{ color: "#0070F0", fontSize: "40px" }}
@@ -63,7 +63,7 @@ const RealStories = () => {
                 </div>
               </div>
 
-              <div className="col-lg-6 d-flex flex-column gap-4">
+              <div className="col-lg-6 col-md-6 d-flex flex-column gap-4">
                 <div className="story-card allegro-card">
                   <h5 className="brand allegro">allegro</h5>
 
@@ -101,7 +101,7 @@ const RealStories = () => {
 
           <SwiperSlide>
             <div className="row">
-              <div className="col-lg-6">
+              <div className="col-lg-6  col-md-6">
                 <div className="stories-heading">
                   <ImQuotesLeft
                     style={{ color: "#0070F0", fontSize: "40px" }}
@@ -133,7 +133,7 @@ const RealStories = () => {
                 </div>
               </div>
 
-              <div className="col-lg-6 d-flex flex-column gap-4">
+              <div className="col-lg-6 col-md-6 d-flex flex-column gap-4">
                 <div className="story-card allegro-card">
                   <h5 className="brand allegro">Google</h5>
 

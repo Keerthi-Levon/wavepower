@@ -64,12 +64,90 @@
   background-color: #0070f0e5;
 }
 @media (max-width: 767px) {
-  .partner-form {
-    position: absolute;
-    top: 0px;
-    left: 0px;
+
+  .round-icon,
+  .dots-icon {
+    display: none;
   }
-  .round-icon,.dots-icon{
+
+  .partner-section {
+    padding: 40px 0;
+  }
+
+  
+  .content-section {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+
+  .content-section h1 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .content-section p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+ 
+  .partner-form {
+    position: static; 
+    width: 100%;
+    max-width: 100%;
+    margin-top: 20px;
+    padding: 15px;
+  }
+
+
+  .blue-background-container {
+    height: 120px;
+    margin-top: 30px;
+    display: none;
+  }
+}
+
+@media (max-width: 1024px) {
+
+ 
+  .round-icon,
+  .dots-icon {
+    display: none;
+  }
+
+  
+  .partner-section {
+    padding: 40px 0;
+  }
+
+  .content-section {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+
+  .content-section h1 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .content-section p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  
+  .partner-form {
+    position: static;    
+    width: 100%;
+    max-width: 100%;
+    margin-top: 20px;
+    padding: 15px;
+  }
+   
+   
+  .blue-background-container {
+    height: 120px;
+    margin-top: 30px;
     display: none;
   }
 }
@@ -77,9 +155,11 @@
 
 
 
+
 .real-stories-section {
   background: #f7f9fc;
   padding: 100px 0;
+  
 }
 
  
@@ -112,9 +192,8 @@
   background: white;
   padding: 28px;
   border-radius: 14px;
-  box-shadow: 0 12px 30px rgba(0,0,0,0.08);
-  width: 380px;
-  max-width: 380px;
+  width: 100%;
+  max-width: 100%;
 }
 
 .logo{
@@ -134,6 +213,7 @@
 
 .brand {
   font-weight: 700;
+  font-size: 20px;
   margin-bottom: 12px;
 }
 
@@ -143,9 +223,10 @@
  
 
 .story-text {
-  font-size: 14px;
-  color: #6c757d;
-  line-height: 1.6;
+  font-size: 16px;
+  font-weight: 400;
+  color: #17181A;
+  line-height: 32px;
   margin-bottom: 20px;
 }
 
@@ -203,6 +284,19 @@
   background: #1d2b4f;
   
 }
+.real-stories-section {
+  overflow-x: clip;
+}
+
+@media (max-width: 767px) {
+  .story-card {
+    max-width: 100%;
+    width: 100%;
+  }
+}
+
+
+
 
 .sponsor-section{
     background: #f7f9fc;
@@ -251,6 +345,7 @@
     transform: translateX(0);
   }
 }
+
 
 
 @media(max-width:767px){
