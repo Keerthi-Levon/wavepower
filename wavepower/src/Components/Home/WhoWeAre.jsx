@@ -24,7 +24,7 @@ const WhoWeAre = () => {
     <>
     <section className="py-5 bg-gray-300">
       <div className="container">
-        <div className="row align-items-center g-5">
+        <div className="row align-items-center justify-content-between g-5 ">
           
           {/* Left Content */}
           <div className="col-lg-6">

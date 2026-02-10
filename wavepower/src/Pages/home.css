@@ -1,6 +1,6 @@
 .partner-section {
   position: relative;
-  padding: 80px 0;
+  padding: 40px 0;
   background: #f7f9fc;
 }
 
@@ -151,6 +151,18 @@
     display: none;
   }
 }
+.card_icon{
+  width: 70px;
+  height: 70px;
+}
+.benifits-card{
+  padding: 20px;
+  border: 1px solid #95DDFF;
+  border-radius: 15px;
+  background-color: #FFFFFF;
+  height: 100%;
+}
+ 
 
 
 
@@ -367,7 +379,7 @@
   background-color: #FAFBFC;
 }
 
-/* Image Styling */
+  
 .tech-image-wrapper {
   border-radius: 24px;
   overflow: hidden;
@@ -380,7 +392,7 @@
   object-fit: cover;
 }
 
-/* Text */
+ 
 .tech-title {
   font-weight: 700;
   color: #0b1b3f;
@@ -392,7 +404,7 @@
   line-height: 1.7;
 }
 
-/* Feature List */
+ 
 .tech-feature {
   display: flex;
   gap: 12px;
@@ -420,3 +432,174 @@
   font-size: 14px;
   color: #6b7280;
 }
+.beneift-main{
+  background-color: #EEFEF7;
+  padding: 40px 0px;
+}
+ .benfit-section h1,.benfit-section p{
+  text-align: center;
+ }
+.benifits-card h3{
+  font-size: 20px;
+  font-weight: 700;
+  color: #0069AB;
+  text-align: left;
+}
+.benifits-card p{
+  font-size: 14px;
+  font-weight: 600;
+  color: #6D6D6D;
+  text-align: left;
+}
+@media(max-width:767px){
+  .benfit-section h1{
+  font-size: 30px;
+}
+
+}
+
+
+.projects-section {
+  padding: 40px 0;
+  text-align: center;
+}
+
+.section-title {
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #0069AB;
+}
+
+.section-desc {
+  max-width: 850px;
+  margin: 0 auto 60px;
+  color: #6b7280;
+}
+
+  
+.project-card {
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  height: 100%;
+  padding: 30px 0px;
+}
+
+ 
+.image-stack {
+  position: relative;
+  padding: 24px;
+}
+
+.image-back {
+  position: absolute;
+  inset: 0;
+  background-image: url('../assets/project_back_img.png');
+  background-repeat: no-repeat;
+  background-size: cover;        
+  background-position: center;   
+  border-radius: 18px;
+  z-index: 1;
+}
+
+
+ 
+
+.image-front {
+  position: relative;
+  width: 100%;
+  top: 30px;
+  left: -23px;
+  border-radius: 16px;
+  z-index: 2;
+}
+
+ 
+.project-content {
+  padding: 24px;
+  text-align: left;
+}
+
+.project-content h5 {
+  font-weight: 600;
+  margin-bottom: 10px;
+   
+}
+
+.project-content p {
+  font-size: 14px;
+  color: #6b7280;
+  margin-bottom: 16px;
+}
+
+.project-content ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 16px;
+  font-size: 14px;
+}
+
+.project-content ul li {
+  margin-bottom: 6px;
+}
+.project-content ul li strong{
+  color: #0069AB;
+}
+.view-more-main{
+  display: flex;
+  justify-content: end;
+}
+.view-more {
+  color: #2563eb;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+
+.projects-swiper {
+  padding: 40px 0 60px;
+}
+
+.projects-swiper .swiper-slide {
+  height: auto;
+}
+
+
+
+.why-section {
+  padding: 80px 0;
+  background: radial-gradient(circle at right, #eef6ff, #ffffff);
+}
+ 
+.why-content h3 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #1f284f;
+  margin-bottom: 16px;
+}
+
+.why-content p {
+  font-size: 16px;
+  color: #6b7280;
+  line-height: 1.7;
+  margin-bottom: 16px;
+}
+
+.why-btn {
+  padding: 12px 35px;
+  border-radius: 20px;
+  background: #1da1f2;
+  color: #fff;
+  border: none;
+  font-weight: 600;
+}
+
+.why-choose-image {
+  width: 100%;
+  height: auto;
+  background-position: center;
+  background-size: cover;
+}
+
+ 

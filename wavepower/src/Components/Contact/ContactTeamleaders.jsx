@@ -19,7 +19,7 @@ const ContactTeamleaders = () => {
   return (
     <div className="Background-wrapper">
       <div className="container">
-        <div className="row mt-5">
+        <div className="row mt-2">
           <div className="col-12 text-center Teamleader-heading mb-4">
             <p>Meet Our Team Leaders</p>
           </div>
