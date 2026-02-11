@@ -70,7 +70,7 @@ const Header = () => {
                   </Link>
                 </li>
 
-                <li className="header-menu-item">
+                {/* <li className="header-menu-item">
                   <Link
                     className={`nav-link ${isActive("/services") ? "active-link" : ""
                       }`}
@@ -79,12 +79,12 @@ const Header = () => {
                   >
                     Services
                   </Link>
-                </li>
+                </li> */}
                 <li className="header-menu-item">
                   <Link
                     className={`nav-link ${isActive("/about-us") ? "active-link" : ""
                       }`}
-                    to="/about-us"
+                    to="/about"
                     onClick={toggleNav}
                   >
                     About Us
@@ -102,12 +102,12 @@ const Header = () => {
                 </li>
                    <li className="header-menu-item">
                   <Link
-                    className={`nav-link ${isActive("/about-us") ? "active-link" : ""
+                    className={`nav-link ${isActive("/blog") ? "active-link" : ""
                       }`}
-                    to="/about"
+                    to="/blog"
                     onClick={toggleNav}
                   >
-                    About 
+                    Blog 
                   </Link>
                 </li>
 
@@ -163,7 +163,7 @@ const Header = () => {
               Home
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link
               to="/services"
               className={isActive("/services") ? "active-link" : ""}
@@ -171,10 +171,10 @@ const Header = () => {
             >
               Services
             </Link>
-          </li>
+          </li> */}
           <li>
             <Link
-              to="/about-us"
+              to="/about"
               className={isActive("/about") ? "active-link" : ""}
               onClick={toggleMenu}
             >
@@ -202,11 +202,11 @@ const Header = () => {
                 </li>
              <li>
             <Link
-              to="/about"
-              className={isActive("/about") ? "active-link" : ""}
+              to="/blog"
+              className={isActive("/blog") ? "active-link" : ""}
               onClick={toggleMenu}
             >
-              About
+              Blog
             </Link>
           </li>
              
