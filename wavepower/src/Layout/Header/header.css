@@ -8,10 +8,10 @@
   display: flex;
 }
 .header {
-  background: rgba(0, 0, 0, 0.35); /* 👈 light black transparent */
-  backdrop-filter: blur(6px);     /* 👈 optional premium glass effect */
-  -webkit-backdrop-filter: blur(6px);
-  padding: 20px;
+  background: #fff;
+  /* backdrop-filter: blur(6px);     👈 optional premium glass effect */
+  /* -webkit-backdrop-filter: blur(6px); */
+  padding: 5px 20px;
 }
 .navbar-head {
   display: flex;
@@ -23,10 +23,10 @@
   gap: 30px;
   margin-bottom: 0;
   align-items: center;
-  color: #fff;
+  color: #000;
 }
 .header-menu-item {
-  color: #fff;
+  color: #000;
   font-size: 18px;
   font-weight: 600;
 }
@@ -38,7 +38,7 @@
 .mobile-header {
   display: none;
   padding: 10px 20px;
-  background: linear-gradient(20deg, #b5cce2, #58c7e7);
+  background: linear-gradient(20deg, #ffffff, #58c7e7);
   position: fixed;
   width: 100%;
   top: 0;
@@ -108,16 +108,28 @@
   font-size: 18px;
   padding: 8px;
 }
-.header.scrolled {
+/* .header.scrolled {
   background: linear-gradient(20deg, #b5cce2, #58c7e7);
   top: 20px;
   border-radius: 30px;
   padding: 5px 30px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+} */
+.header.scrolled {
+  position: fixed;   /* becomes sticky */
+  top: 10px;            /* stick to top */
+  left: 0;
+  right: 0;
+  border-radius: 30px;  /* remove rounded look */
+  background: linear-gradient(20deg, #f7f8f8, #58c7e7);
+  padding: 10px 30px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
 }
+
 .header.scrolled .logo-icon {
-  width: 130px;
-  height: 100px;
+ width: 120px;
+  height: 80px;
+  object-fit: contain;
 }
 .header.scrolled .header-menu-item {
   color: #fff !important;
@@ -133,7 +145,8 @@
   color: #fff;
 }
 .logo-icon {
-  width: 150px;
+  width: 120px;
+  height: 80px;
   object-fit: contain;
 }
 
@@ -154,12 +167,19 @@
     display: block;
   }
   .logo-icon {
-    width: 85px !important;
-    height: 60px !important;
+    width: 100px !important;
+    height: 80px !important;
   }
 }
 
 @media (max-width: 769px) {
+  /* .home-banner{
+    height: 50vh !important;
+  }
+  .banner-video {
+    object-fit: none !important;
+  } */
+
   .header {
     display: none !important;
   }

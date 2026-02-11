@@ -8,7 +8,7 @@ const ContactPage = () => {
     <div>
       <ContactBanner/>
       <ContactLeaders/>
-      <TrustedBy/>
+      {/* <TrustedBy/> */}
     </div>
   )
 }

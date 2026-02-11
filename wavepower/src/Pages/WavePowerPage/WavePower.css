@@ -24,6 +24,9 @@
   font-size: 3rem;
   margin: 0;
 }
+.wavepower-banner-overlay p {
+max-width: 800px;
+}
 .wavebanner-btn{
     background-color:rgba(0, 164, 244, 1);
     border-radius: 40%

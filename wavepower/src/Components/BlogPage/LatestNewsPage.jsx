@@ -28,8 +28,8 @@ const LatestNewsPage = () => {
   const newsItems = [
     {
       img: newspage1,
-      title: "Eco Wave Power Launches New Coastal Energy Project",
-      desc: "Eco Wave Power announces the launch of a new coastal wave energy installation.....",
+      title: "Waveion Energy Launches New Coastal Energy Project",
+      desc: "Waveion Energy announces the launch of a new coastal wave energy installation.....",
     },
     {
       img: newspage2,

@@ -1,13 +1,13 @@
 import "./footer.css";
 import { Link } from "react-router-dom";
-import logoIcon from "../../assets/Logo (1).png";
-import isofooter from "../../assets/iso-footer.png";
-import {
-  FaFacebookF,
-  FaLinkedinIn,
-  FaInstagram,
-  FaXTwitter,
-} from "react-icons/fa6";
+import logoIcon from "../../assets/Logobg.png";
+// import isofooter from "../../assets/iso-footer.png";
+// import {
+//   FaFacebookF,
+//   FaLinkedinIn,
+//   FaInstagram,
+//   FaXTwitter,
+// } from "react-icons/fa6";
 import { HiOutlineMail, HiOutlinePhone } from "react-icons/hi";
 import { FaLocationDot } from "react-icons/fa6";
 
@@ -21,11 +21,10 @@ const Footer = () => {
             <div className="col-md-3">
               <img src={logoIcon} alt="Company Logo" className="footer-icon" />
               <p className="footer-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
-                non leo at justo posuere luctus. Maecenas id mauris sit.
+               WaveIon Energy is dedicated to generating clean and renewable energy from ocean waves. We aim to reduce innovative and eco-friendly technology.
               </p>
 
-              <div className="iso-badges">
+              {/* <div className="iso-badges">
                <img src={isofooter} alt="ISO Badges" className="iso-footer-img" />
               </div>
 
@@ -34,39 +33,38 @@ const Footer = () => {
                 <a href="#"><FaXTwitter /></a>
                 <a href="#"><FaLinkedinIn /></a>
                 <a href="#"><FaInstagram /></a>
-              </div>
+              </div> */}
             </div>
 
             {/* OPMENTEK */}
-            <div className="col-md-2">
+            {/* <div className="col-md-2">
               <h5 className="footer-links-name">Opmentek</h5>
               <ul className="resources-list">
                 <li><Link to="/">Get demo</Link></li>
                 <li><Link to="/">Download</Link></li>
               </ul>
-            </div>
+            </div> */}
 
             {/* PRODUCTS */}
-            <div className="col-md-2">
-              <h5 className="footer-links-name">Products</h5>
+            <div className="col-md-3">
+              <h5 className="footer-links-name">Quick Links</h5>
               <ul className="resources-list">
-                <li><Link to="/">NMIS</Link></li>
-                <li><Link to="/">Open-AudIT</Link></li>
-                <li><Link to="/">opEvents</Link></li>
-                <li><Link to="/">opConfig</Link></li>
-                <li><Link to="/">opHA</Link></li>
+                <li><Link to="/">Home</Link></li>
+                <li><Link to="/about">About</Link></li>
+                <li><Link to="/contact">Contact</Link></li>
+                <li><Link to="/blog">Blog</Link></li>
+                <li><Link to="/wave-power">Wave Power</Link></li>
               </ul>
             </div>
 
             {/* RESOURCES */}
-            <div className="col-md-2">
-              <h5 className="footer-links-name">Resources</h5>
+            <div className="col-md-3">
+              <h5 className="footer-links-name">Useful Links</h5>
               <ul className="resources-list">
-                <li><Link to="/">Blog</Link></li>
-                <li><Link to="/">Webinars</Link></li>
-                <li><Link to="/">Opmentek Wiki</Link></li>
-                <li><Link to="/">Prices</Link></li>
-                <li><Link to="/">Contact us</Link></li>
+                <li><Link to="/">Privacy Policy</Link></li>
+                <li><Link to="/">Terms and conditons</Link></li>
+                <li><Link to="/">Cookies policy</Link></li>
+                
               </ul>
             </div>
 
@@ -76,26 +74,25 @@ const Footer = () => {
               <ul className="reach-us-list">
                 <li>
                   <HiOutlineMail />
-                  <span><strong>Support:</strong> hello@wavepower.co</span>
+                  <span><strong></strong>contact@waveionenergy.com</span>
                 </li>
                 <li>
                   <HiOutlinePhone />
-                  <span><strong>General:</strong> +91 9944076993</span>
+                  <span> +91 9108018277</span>
                 </li>
                 <li>
                   <FaLocationDot />
                   <span>
-                    <strong>USA Office:</strong> 772 Lyonwood Ave, Walnut, CA
-                    91789
+                     #8, 3rd floor, 24th Main Road, J P Nagar 5th Phase, Bengaluru, Karnataka 560078
                   </span>
                 </li>
-                <li>
+                {/* <li>
                   <FaLocationDot />
                   <span>
                     <strong>Australia Office:</strong> 772 Lyonwood Ave, Walnut,
                     CA 91789
                   </span>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>

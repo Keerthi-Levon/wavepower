@@ -12,7 +12,7 @@ const Aboutuspage = () => {
       <Aboutuswave/>
       <AboutStory/>
       <ContactTeamleaders/>
-      <TrustedBy/>
+      {/* <TrustedBy/> */}
     </div>
   )
 }

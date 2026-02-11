@@ -9,9 +9,9 @@ const BenifitsOfEcoWavwpower = () => {
   return (
     <div className="beneift-main">
       <div className="container benfit-section mt-2">
-        <h1>Benefits of Eco Wave Power</h1>
+        <h1>Benefits of Waveion Energy</h1>
         <p>
-          Eco Wave Power delivers clean, reliable, and cost-effective energy
+          Waveion Energy delivers clean, reliable, and cost-effective energy
           using natural ocean waves. Our technology supports sustainability
           while reducing environmental impact and long-term energy costs.
         </p>
@@ -23,7 +23,7 @@ const BenifitsOfEcoWavwpower = () => {
               <img className="card_icon" src={renewable_icon} alt="" />
               <h3>Renewable & Sustainable</h3>
               <p>
-                Eco Wave Power uses the natural and continuous movement of ocean
+                Waveion Energy uses the natural and continuous movement of ocean
                 waves to generate electricity. Unlike fossil fuels, wave energy
                 is renewable and will never run out, making it a long-term and
                 sustainable energy solution.
@@ -50,7 +50,7 @@ const BenifitsOfEcoWavwpower = () => {
               <img className="card_icon" src={costing_icon} alt="" />
               <h3>Cost-Effective Energy</h3>
               <p>
-                Once installed, Eco Wave Power systems operate with low running
+                Once installed, Waveion Energy systems operate with low running
                 and maintenance costs.
               </p>
             </div>
@@ -72,7 +72,7 @@ const BenifitsOfEcoWavwpower = () => {
               <img className="card_icon" src={supports_icon} alt="" />
               <h3>Supports a Clean Future</h3>
               <p>
-                By investing in clean and green energy, Eco Wave Power helps
+                By investing in clean and green energy,  Waveion Energy helps
                 build a future generations.
               </p>
             </div>

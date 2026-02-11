@@ -29,7 +29,7 @@ const BlogCards = () => {
   }, []);
 
   const blogItems = [
-    { img: card1, title: "Wave Energy Installations", description: "Eco Wave Power reveals plans to expand its wave energy projects across key coastal regions to strengthen clean energy infrastructure.", time: "30 min" },
+    { img: card1, title: "Wave Energy Installations", description: " Waveion Energy reveals plans to expand its wave energy projects across key coastal regions to strengthen clean energy infrastructure.", time: "30 min" },
     { img: card2, title: "Wave Energy Project", description: "The pilot project demonstrates reliable performance, ocean-safe operation, ocean-safe and strong potential for large-scale deployment.", time: "25 min" },
     { img: card3, title: "Sustainable Energy", description: "The company reinforces its mission to deliver zero-emission energy solutions that support environmental protection and sustainability goals..", time: "40 min" },
     { img: card4, title: "Wave Energy Te", description: "New technology enhancements improve efficiency, durability, and real-time energy monitoring capabilities." },

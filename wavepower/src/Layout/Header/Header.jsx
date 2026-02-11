@@ -2,7 +2,7 @@ import  { useEffect, useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import "./header.css";
 import { FaBars, } from "react-icons/fa6";
-import logoIcon from "../../assets/Logo (1).png";
+import logoIcon from "../../assets/logobg.png";
 import { FaTimes } from "react-icons/fa";
 
 const Header = () => {
@@ -16,21 +16,19 @@ const Header = () => {
     setIsNavOpen(!isNavOpen);
   };
 
-  // useEffect(() => {
-  //   const handleScroll = () => {
-  //     if (window.scrollY > 50) {
-  //       setIsScrolled(true);
-  //     } else {
-  //       setIsScrolled(false);
-  //     }
-  //   };
+  useEffect(() => {
+  const handleScroll = () => {
+    if (window.scrollY > 50) {
+      setIsScrolled(true);
+    } else {
+      setIsScrolled(false);
+    }
+  };
 
-  //   window.addEventListener("scroll", handleScroll);
+  window.addEventListener("scroll", handleScroll);
+  return () => window.removeEventListener("scroll", handleScroll);
+}, []);
 
-  //   return () => {
-  //     window.removeEventListener("scroll", handleScroll);
-  //   };
-  // }, []);
 
   useEffect(() => {
     if (location.pathname !== "/") {
@@ -52,8 +50,11 @@ const Header = () => {
     <>
       <div className="container">
         <div
-          className={`header container  justify-content-between align-items-center `}
-        >
+  className={`header container justify-content-between align-items-center ${
+    isScrolled ? "scrolled" : ""
+  }`}
+>
+
           <div className="navbar-head">
             <a className="navbar-brand" href="/">
               <img src={logoIcon} alt="Logo" className="logo-icon" />
@@ -144,7 +145,7 @@ const Header = () => {
 
       <div className="mobile-header d-flex justify-content-between align-items-center d-md-none">
         <Link to="/" className="navbar-brand">
-          {/* <img src={logoIcon} alt="Logo" className="logo-icon" /> */}
+          <img src={logoIcon} alt="Logo" className="logo-icon" />
         </Link>
         <button className="menu-toggle-btn" onClick={toggleMenu}>
           {menuOpen ? <FaTimes size={22} /> : <FaBars size={22} />}
