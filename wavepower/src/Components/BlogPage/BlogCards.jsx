@@ -31,7 +31,7 @@ const BlogCards = () => {
   const blogItems = [
     { img: card1, title: "Understanding Wave Energy", description: "Learn how ocean waves are converted into clean and reliable electricity using advanced renewable energy clean ocean systems.", time: "30 min" },
     { img: card2, title: "Why Wave Power", description: "Explore how wave energy supports sustainability, reduces carbon emissions, and strengthens renewable infrastructure.", time: "25 min" },
-    { img: card3, title: "Eco Wave Power", description: "Discover the eco-friendly design principles that ensure wave energy systems work safely with ocean ecosystems.", time: "40 min" },
+    { img: card3, title: "Waveion Energy", description: "Discover the eco-friendly design principles that ensure wave energy systems work safely with ocean ecosystems.", time: "40 min" },
     { img: card4, title: "Wave Energy", description: "Understand how wave power helps lower greenhouse gas emissions and supports clean energy goals.", time: "20 min" },
     { img: card1, title: "Understanding Wave Energy", description: "Learn how ocean waves are converted into clean and reliable electricity using advanced renewable energy systems.", time: "35 min" },
     { img: card2, title: "Why Wave Power", description: "Explore how wave energy supports sustainability and renewable infrastructure.", time: "28 min" },

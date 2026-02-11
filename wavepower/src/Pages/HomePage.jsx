@@ -21,7 +21,7 @@ export const HomePage = () => {
     <BenifitsOfEcoWavwpower/>
     <ProjectsAndInstallations/>
     <WhyChooseUs/>
-    <TrustedBy/>
+    {/* <TrustedBy/> */}
     <RealStories/>
     <BecameAPartner/>
     </>

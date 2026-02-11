@@ -10,10 +10,14 @@ const BecameAPartner = () => {
         <div className='row align-items-center'>
 
     
-          <div className='col-lg-6 content-section d-flex flex-column justify-content-end'>
-                <h1>Become a Partner</h1>
-                <p>Used and supported in over 178 countries around the globe.</p>
-                <p>We’ll work with you to open more doors and close more sales across all verticals.</p>
+           <div className="col-lg-6 content-section d-flex flex-column justify-content-center">
+            <h1>Contact Us</h1>
+            <p>
+              Have questions about our solutions? Our team is here to help.
+            </p>
+            <p>
+              Reach out to us and we’ll get back to you as soon as possible.
+            </p>
           </div>
 
           

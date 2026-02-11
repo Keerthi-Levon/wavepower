@@ -35,7 +35,7 @@ const WhoWeAre = () => {
             <h2 className="fw-bold mt-2 mb-3">Who We Are</h2>
 
             <p className="text-secondary mb-4">
-              Eco Wave Power is dedicated to generating clean and renewable
+             Waveion Energy is dedicated to generating clean and renewable
               energy from ocean waves. We aim to reduce{" "}
               <strong>innovative and eco-friendly technology</strong>.
             </p>

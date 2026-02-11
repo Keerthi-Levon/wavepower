@@ -11,7 +11,7 @@ const AboutStory = () => {
             </div>
             <div className="story-content">
               <p>
-                Eco Wave Power was founded with a clear vision to
+                Waveion Energy was founded with a clear vision to
                 <br /> transform the natural power of ocean waves into
                 <br /> clean and sustainable energy. Inspired by the
                 <br /> endless movement of the sea.
@@ -33,18 +33,18 @@ const AboutStory = () => {
             wave energy technology that is efficient, reliable, and safe for
             marine life. Through continuous testing and pilot projects, we
             refined our systems to perform effectively in real coastal
-            environments. Today, Eco Wave Power delivers renewable energy
+            environments. Today, Waveion Energy delivers renewable energy
             solutions that reduce carbon emissions and support a greener future.
           </p>
           <p>
-            Eco Wave Power delivers renewable energy solutions that reduce
+            Waveion Energy delivers renewable energy solutions that reduce
             carbon emissions and support a greener future. We continue to
             innovate, scale our technology, and work towards a world powered by
             clean ocean energy.
           </p>
           <p>
             {" "}
-            Eco Wave Power was founded with a clear vision to transform the
+            Waveion Energy was founded with a clear vision to transform the
             natural power of ocean waves into clean and sustainable energy.
             Inspired by the endless movement of the sea, we set out to create an
             energy solution that works in harmony with nature. Our journey began
@@ -52,7 +52,7 @@ const AboutStory = () => {
             technology that is efficient, reliable, and safe for marine life.
             Through continuous testing and pilot projects, we refined our
             systems to perform effectively in real coastal environments. Today,
-            Eco Wave Power delivers renewable energy solutions that reduce
+            Waveion Energy delivers renewable energy solutions that reduce
             carbon emissions and support a greener future.
           </p>{" "}
           <p>

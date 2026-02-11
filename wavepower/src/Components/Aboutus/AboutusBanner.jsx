@@ -18,7 +18,7 @@ const AboutusBanner = () => {
               </p>
 
               <span className="Aboutus-para">
-                Eco Wave Power is committed to generating <br />
+                Waveion Energy is committed to generating <br />
                 sustainable and eco-friendly electricity <br />
                 using the natural power of ocean waves.
               </span>
