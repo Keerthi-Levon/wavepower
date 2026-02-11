@@ -17,7 +17,7 @@ const TrustedBy = () => {
   const rowTwo = [google, opengov, allegro, amazon, circleup];
 
   return (
-    <div className="sponsor-section mt-2">
+    <div className="sponsor-section ">
       <div className="  container">
         <h3>Trusted By over 150,000 Companies including</h3>
 
