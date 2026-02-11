@@ -8,6 +8,8 @@ import WavePowerpage from "./Pages/WavePowerPage/WavePowerpage";
 import ContactPage from "./Pages/ContactPage/ContactPage";
 import Aboutuspage from "./Pages/Aboutus/Aboutuspage";
 import BlogPage from "./Pages/BlogPage/BlogPage";
+import WaveEnergyMain from "./Pages/wave energy/WaveEnergyMain";
+import UpcomingMain from "./Pages/upcomig projects/UpcomingMain";
 // import ScrollToTop from "./Components/ScrollToTop"; // if exists
 
 const Loader = () => {
@@ -29,6 +31,8 @@ const MainContent = () => {
             <Route path="/wave-power" element={<WavePowerpage/>}/>
             <Route path="/contact" element={<ContactPage/>}/>
             <Route path="/about" element={<Aboutuspage/>}/>
+            <Route path=" " element={<WaveEnergyMain/>}/>
+            <Route path="/wave-energy" element={<UpcomingMain/>}/>
           </Routes>
           <Footer />
         </>
