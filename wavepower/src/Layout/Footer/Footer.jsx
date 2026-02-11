@@ -1,6 +1,6 @@
 import "./footer.css";
 import { Link } from "react-router-dom";
-import logoIcon from "../../assets/Logobg.png";
+import logoIcon from "../../assets/logobg.png";
 // import isofooter from "../../assets/iso-footer.png";
 // import {
 //   FaFacebookF,
