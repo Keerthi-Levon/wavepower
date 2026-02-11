@@ -21,7 +21,7 @@ const TechnologySection = () => {
             <h3 className="tech-title mb-3">Our Technology / Solution</h3>
 
             <p className="tech-desc">
-              Eco Wave Power uses advanced wave energy technology designed to
+              Waveion Energy uses advanced wave energy technology designed to
               produce clean electricity while protecting the ocean ecosystem.
               Our solution combines smart engineering with eco-friendly design
               to deliver reliable and sustainable energy.

@@ -21,7 +21,7 @@ const WavePowerpage = () => {
       <WhereWavepowerCanBeUsed/>
       <CoreSystemComponenets/>
       <ContactLeaders/>
-      <TrustedBy />
+      {/* <TrustedBy /> */}
       <RealStories />
       <BecameAPartner />
     </div>

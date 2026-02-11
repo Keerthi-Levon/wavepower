@@ -14,7 +14,7 @@ const ProjectsAndInstallations = () => {
       <div className="container">
         <h3 className="section-title">Projects / Installations</h3>
         <p className="section-desc">
-          Eco Wave Power has successfully delivered wave energy projects that
+          Waveion Energy has successfully delivered wave energy projects that
           demonstrate the reliability and effectiveness of our technology.
           Each installation is designed to generate clean energy while
           maintaining environmental safety and long-term performance.

@@ -18,7 +18,7 @@ const Aboutuswave = () => {
                 </div>
                 <div className="rightside-content">
                   <p>
-                    Eco Wave Power combines experience, innovation, and
+                    Waveion Energy combines experience, innovation, and
                     sustainability to deliver reliable wave-based renewable
                     energy solutions. Our focus on quality, safety, partner in
                     clean energy development.Our team consists of skilled

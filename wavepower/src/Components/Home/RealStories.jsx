@@ -47,7 +47,7 @@ const RealStories = () => {
                     <h5 className="brand">ETHzürich</h5>
 
                     <p className="story-text">
-                      Eco Wave Power delivers a truly sustainable energy
+                      Waveion Energy delivers a truly sustainable energy
                       solution. Their wave energy technology is efficient,
                       eco-friendly, and well-designed for long-term use.
                     </p>
@@ -68,7 +68,7 @@ const RealStories = () => {
                   <h5 className="brand allegro">allegro</h5>
 
                   <p className="story-text">
-                    The Eco Wave Power team demonstrated deep knowledge.
+                    The Waveion Energy team demonstrated deep knowledge.
                   </p>
 
                   <div className="story-user">
@@ -84,7 +84,7 @@ const RealStories = () => {
                   <h5 className="brand">Bloomberg</h5>
 
                   <p className="story-text">
-                    Working with Eco Wave Power has been a great experience.
+                    Working with Waveion Energy has been a great experience.
                   </p>
 
                   <div className="story-user">

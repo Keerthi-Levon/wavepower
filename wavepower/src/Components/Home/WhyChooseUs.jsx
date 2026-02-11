@@ -14,7 +14,7 @@ const WhyChooseUs = () => {
             <div className="why-content">
               <h3>Why Choose Us</h3>
               <p>
-                Eco Wave Power combines experience, innovation, and
+                Waveion Energy combines experience, innovation, and
                 sustainability to deliver reliable wave-based renewable
                 energy solutions. Our focus on quality, safety, and
                 partnership drives clean energy development.
