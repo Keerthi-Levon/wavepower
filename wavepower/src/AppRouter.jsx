@@ -4,10 +4,10 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Header from "./Layout/Header/Header";
 import Footer from "./Layout/Footer/Footer";
 import { HomePage } from "./Pages/HomePage";
-import AboutPages from "./Pages/BlogPage/BlogPage";
 import WavePowerpage from "./Pages/WavePowerPage/WavePowerpage";
 import ContactPage from "./Pages/ContactPage/ContactPage";
 import Aboutuspage from "./Pages/Aboutus/Aboutuspage";
+import BlogPage from "./Pages/BlogPage/BlogPage";
 // import ScrollToTop from "./Components/ScrollToTop"; // if exists
 
 const Loader = () => {
@@ -25,7 +25,7 @@ const MainContent = () => {
           <Header />
           <Routes>
             <Route path="/" element={<HomePage />} />
-            <Route path="/about-us" element={<AboutPages/>}/>
+            <Route path="/blog" element={<BlogPage/>}/>
             <Route path="/wave-power" element={<WavePowerpage/>}/>
             <Route path="/contact" element={<ContactPage/>}/>
             <Route path="/about" element={<Aboutuspage/>}/>
